@@ -1,0 +1,12 @@
+---
+version: "3.9.29-alpine"
+services:
+  rabbitmq:
+    image: rabbitmq:3.9.29-alpine
+    container_name: 'rabbitmq'
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      - RABBITMQ_DEFAULT_USER=mauro
+      - RABBITMQ_DEFAULT_PASS=eyJzdWIiOiIxMjM0NTY3ODkwIiwiZGF0YSI6Ik1pIGNvbnRyYXNlw7FhIiwiaWF0IjoxNTE2MjM5MDIyfQ

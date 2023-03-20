@@ -1,0 +1,18 @@
+Configurar RabbitMQ con Docker compose:
+https://x-team.com/blog/set-up-rabbitmq-with-docker-compose/
+
+Configurar usuario y contraseña:
+https://hub.docker.com/_/rabbitmq
+
+Activar pluggins para poder ver RabbitMQ UI:
+https://www.rabbitmq.com/management.html
+
+Activar pluggins con docker-compose:
+https://stackoverflow.com/questions/23500014/rabbitmq-started-but-cant-access-management-interface
+https://www.w3schools.blog/docker-compose-enable-rabbitmq-enable-plugins
+https://www.youtube.com/watch?v=QziJgzW_z-g
+https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases
+https://github.com/docker-library/rabbitmq/issues/260
+
+docker build -t rabbitmq:3.9.29-alpine .
+docker-compose up -d rabbitmq
