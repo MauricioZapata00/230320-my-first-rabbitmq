@@ -8,5 +8,5 @@ services:
       - 5672:5672
       - 15672:15672
     environment:
-      - RABBITMQ_DEFAULT_USER=mauro
-      - RABBITMQ_DEFAULT_PASS=eyJzdWIiOiIxMjM0NTY3ODkwIiwiZGF0YSI6Ik1pIGNvbnRyYXNlw7FhIiwiaWF0IjoxNTE2MjM5MDIyfQ
+      - RABBITMQ_DEFAULT_USER=
+      - RABBITMQ_DEFAULT_PASS=
